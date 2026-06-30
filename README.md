@@ -65,11 +65,11 @@ valleys, _ = find_peaks(
 ```
 
 <p align="center">
-<img src="docs/images/single_column.png" width="800">
+<img src="docs/images/histogram" width="800">
 </p>
 
 <p align="center">
-<img src="docs/images/multi_column.png" width="800">
+<img src="docs/images/after split" width="800">
 </p>
 
 > 📊 Single-column resumes produce a flat, uniform X-profile.  
