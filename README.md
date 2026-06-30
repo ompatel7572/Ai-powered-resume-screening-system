@@ -1,8 +1,28 @@
 # 🤖 AI-Powered Resume Parsing & Screening System
 
-An end-to-end intelligent recruitment pipeline that automates resume understanding and candidate ranking using a hybrid NLP + LLM approach — going far beyond simple keyword matching.
+An intelligent recruitment platform that automatically parses resumes,
+extracts structured candidate information, and ranks applicants against
+a job description using a hybrid NLP + LLM pipeline.
+
+## ✨ Highlights
+
+- 📄 Robust multi-column detection using Machine learning
+- 🤖 Hybrid NLP +  LLM extraction
+- 🧠 Semantic skill matching with LLM-expanded job skills
+- 📊 Explainable candidate ranking
+- ⚡ Supports batch resume screening
+- 🔐 Per-user LLM API key management.
 
 ---
+
+<p align="center">
+<img src="docs/images/dashboard.png" width="800">
+</p>
+
+<p align="center">
+<img src="docs/images/ranking.png" width="800">
+</p>
+
 
 ## 🧩 System Overview
 
@@ -44,14 +64,26 @@ valleys, _ = find_peaks(
 # Valley detected → multi-column layout confirmed
 ```
 
+<p align="center">
+<img src="docs/images/single_column.png" width="800">
+</p>
+
+<p align="center">
+<img src="docs/images/multi_column.png" width="800">
+</p>
+
 > 📊 Single-column resumes produce a flat, uniform X-profile.  
-> Multi-column resumes show a clear **valley** between the two content regions.
+> Multi-column resumes show a clear **valley** between the two content regions, The valley between peaks indicates the separation between two columns.
 
 **After detection:**
 
 - If multi-column is confirmed, **K-Means clustering (k=2)** is applied to the X-coordinates of all blocks
 - This cleanly separates content into left and right columns
 - Each cluster is then normalized and read in the correct logical order before any further extraction
+
+<p align="center">
+<img src="docs/images/kmeans.png" width="800">
+</p>
 
 ---
 
@@ -102,6 +134,9 @@ This hybrid approach — rules for what's simple, LLM for what's complex — max
   "projects": [{ "title": "...", "description": "..." }]
 }
 ```
+<p align="center">
+<img src="docs/images/output.png" width="800">
+</p>
 
 ---
 
@@ -184,12 +219,12 @@ The following sequence diagrams illustrate the process flow of the AI-powered re
 ### 1. **Resume Parsing**
 This diagram showcases the step-by-step flow of how resumes are parsed and key information is extracted.
 
-![Resume Parsing](docs/diagrams/s1.png)
+![Resume Parsing](docs/diagrams_s1.png)
 
 ### 2. **Resume Screening**
 This diagram illustrates the process of how resumes are screened, ranked, and compared based on job descriptions and criteria.
 
-![Resume Screening](docs/diagrams/s2.png)
+![Resume Screening](docs/diagrams_s2.png)
 
 ---
 
