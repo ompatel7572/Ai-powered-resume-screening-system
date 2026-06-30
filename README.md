@@ -124,9 +124,9 @@ This hybrid approach — rules for what's simple, LLM for what's complex — max
   "projects": [{ "title": "...", "description": "..." }]
 }
 ```
-<p align="center">
+<!-- <p align="center">
 <img src="docs/images/output.png" width="800">
-</p>
+</p> -->
 
 ---
 
