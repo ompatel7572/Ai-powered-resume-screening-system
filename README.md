@@ -63,7 +63,7 @@ valleys, _ = find_peaks(
 > Multi-column resumes show a clear **valley** between the two content regions, The valley between peaks indicates the separation between two columns.
 
 <p align="center">
-<img src="docs/after_split" width="800">
+<img src="docs/after_split.png" width="800">
 </p>
 **After detection:**
 
