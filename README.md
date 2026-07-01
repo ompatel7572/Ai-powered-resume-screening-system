@@ -32,6 +32,15 @@ a job description using a hybrid NLP + LLM pipeline.
  Ranked Candidate Shortlist
 ```
 
+<p align="center">
+  <img src="docs/homepage.png" width="95%">
+</p>
+
+<p align="center">
+  <b>Home Page</b>
+</p>
+
+
 ---
 
 ## 📄 Part 1 — Resume Parsing (Hybrid Approach)
@@ -74,6 +83,7 @@ valleys, _ = find_peaks(
 <p align="center">
 <img src="docs/outputKMean.png" width="800">
 </p>
+
 
 ---
 
@@ -128,8 +138,16 @@ This hybrid approach — rules for what's simple, LLM for what's complex — max
 <img src="docs/images/output.png" width="800">
 </p> -->
 
----
 
+<p align="center">
+  <img src="docs/parsepage.png" width="95%">
+</p>
+
+<p align="center">
+  <b>Parsed Details Disaply Page</b>
+</p>
+
+---
 ## 🎯 Part 2 — Candidate Screening & Ranking
 
 ### 1. 🔍 Skill Matching — TF-IDF with Semantic Expansion
@@ -145,6 +163,16 @@ Skill matching goes beyond checking if a keyword exists in the resume.
 - The expanded JD skill set and each resume's skills are vectorized using **TF-IDF**
 - **Cosine similarity** measures how closely a resume aligns with the full JD skill space
 - A **per-skill contribution breakdown** is computed, showing exactly which JD skills were matched and by how much
+
+
+
+<p align="center">
+  <img src="docs/rankpage.png" width="95%">
+</p>
+
+<p align="center">
+  <b>Rank Page</b>
+</p>
 
 ---
 
@@ -184,6 +212,21 @@ Skill matching goes beyond checking if a keyword exists in the resume.
 - All component scores are normalized to a **0–100 scale** using Min-Max scaling
 - A **configurable weighted sum** produces the final score
 - Candidates are returned as a **sorted ranked list** with full score transparency
+
+
+
+<p align="center">
+  <img src="docs/rank_v1" width="95%">
+</p>
+
+<p align="center">
+  <img src="docs/rank_v2" width="95%">
+</p>
+
+<p align="center">
+  <b>Screening Page</b>
+</p>
+
 
 ---
 
