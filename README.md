@@ -15,6 +15,17 @@ a job description using a hybrid NLP + LLM pipeline.
 
 ---
 
+---
+
+## 📸 UI Screenshots
+
+<p align="center">
+<img src="docs/ui.png" width="800">
+</p>
+
+---
+
+
 ## 🧩 System Overview
 
 ```
@@ -31,15 +42,6 @@ a job description using a hybrid NLP + LLM pipeline.
         ↓
  Ranked Candidate Shortlist
 ```
-
-<p align="center">
-  <img src="docs/homepage.png" width="100%">
-</p>
-
-<p align="center">
-  <b>Home Page</b>
-</p>
-
 
 ---
 
@@ -139,13 +141,6 @@ This hybrid approach — rules for what's simple, LLM for what's complex — max
 </p> -->
 
 
-<p align="center">
-  <img src="docs/parsepage.png" width="100%">
-</p>
-
-<p align="center">
-  <b>Parsed Details Disaply Page</b>
-</p>
 
 ---
 ## 🎯 Part 2 — Candidate Screening & Ranking
@@ -165,14 +160,6 @@ Skill matching goes beyond checking if a keyword exists in the resume.
 - A **per-skill contribution breakdown** is computed, showing exactly which JD skills were matched and by how much
 
 
-
-<p align="center">
-  <img src="docs/rankpage.png" width="100%">
-</p>
-
-<p align="center">
-  <b>Rank Page</b>
-</p>
 
 ---
 
@@ -214,18 +201,6 @@ Skill matching goes beyond checking if a keyword exists in the resume.
 - Candidates are returned as a **sorted ranked list** with full score transparency
 
 
-
-<p align="center">
-  <img src="docs/rank_v1.png" width="100%">
-</p>
-
-<p align="center">
-  <img src="docs/rank_v2.png" width="100%">
-</p>
-
-<p align="center">
-  <b>Screening Page</b>
-</p>
 
 
 ---
