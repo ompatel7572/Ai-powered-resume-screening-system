@@ -220,7 +220,7 @@ Skill matching goes beyond checking if a keyword exists in the resume.
 </p>
 
 <p align="center">
-  <img src="docs/rank_v2.pmg" width="100%">
+  <img src="docs/rank_v2.png" width="100%">
 </p>
 
 <p align="center">
