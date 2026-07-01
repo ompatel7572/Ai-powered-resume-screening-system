@@ -33,7 +33,7 @@ a job description using a hybrid NLP + LLM pipeline.
 ```
 
 <p align="center">
-  <img src="docs/homepage.png" width="95%">
+  <img src="docs/homepage.png" width="100%">
 </p>
 
 <p align="center">
@@ -140,7 +140,7 @@ This hybrid approach — rules for what's simple, LLM for what's complex — max
 
 
 <p align="center">
-  <img src="docs/parsepage.png" width="95%">
+  <img src="docs/parsepage.png" width="100%">
 </p>
 
 <p align="center">
@@ -167,7 +167,7 @@ Skill matching goes beyond checking if a keyword exists in the resume.
 
 
 <p align="center">
-  <img src="docs/rankpage.png" width="95%">
+  <img src="docs/rankpage.png" width="100%">
 </p>
 
 <p align="center">
@@ -216,11 +216,11 @@ Skill matching goes beyond checking if a keyword exists in the resume.
 
 
 <p align="center">
-  <img src="docs/rank_v1" width="95%">
+  <img src="docs/rank_v1.png" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/rank_v2" width="95%">
+  <img src="docs/rank_v2.pmg" width="100%">
 </p>
 
 <p align="center">
