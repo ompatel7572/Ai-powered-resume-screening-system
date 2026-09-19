@@ -15,17 +15,6 @@ a job description using a hybrid NLP + LLM pipeline.
 
 ---
 
----
-
-## 📸 UI Screenshots
-
-<p align="center">
-<img src="docs/ui.png" width="800">
-</p>
-
----
-
-
 ## 🧩 System Overview
 
 ```
@@ -270,6 +259,17 @@ python app.py
 4. **Enter Job Description** — Add desired skills and requirements
 5. **Configure Ranking** — Set weights for skills, experience, and education
 6. **View Results** — Review ranked candidate profiles with visual insights
+
+---
+
+
+---
+
+## 📸 UI Screenshots
+
+<p align="center">
+<img src="docs/ui.png" width="800">
+</p>
 
 ---
 
